@@ -17,7 +17,7 @@ export default function Error({
           Oops! Something went wrong
         </h2>
         <p className="text-white/70 text-sm mb-6">
-          Your ChronoCritters encountered an error. Don't worry, they're safe!
+          Your ChronoCritters encountered an error. Don&apos;t worry, they&apos;re safe!
         </p>
         <button
           onClick={reset}

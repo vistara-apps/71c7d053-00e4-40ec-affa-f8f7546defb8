@@ -1,10 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useMiniKit } from '@coinbase/minikit';
 
 export function WelcomeBanner() {
-  const { context } = useMiniKit();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -20,7 +18,7 @@ export function WelcomeBanner() {
     );
   }
 
-  const displayName = context?.user?.displayName || 'Trainer';
+  const displayName = 'Trainer';
 
   return (
     <div className="glass-effect rounded-lg p-6 mb-6 text-center">

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Pet, PetCardVariant } from '../lib/types';
 import { formatXP, getEvolutionStage, getHappinessEmoji } from '../lib/utils';
 import { TraitIcon } from './TraitIcon';
@@ -33,9 +34,11 @@ export function PetCard({ pet, variant = 'large', onClick }: PetCardProps) {
         ${isSmall ? 'w-16 h-16' : 'w-24 h-24'}
       `}>
         {pet.imageUrl ? (
-          <img 
-            src={pet.imageUrl} 
+          <Image
+            src={pet.imageUrl}
             alt={pet.name}
+            width={isSmall ? 64 : 96}
+            height={isSmall ? 64 : 96}
             className="w-full h-full rounded-full object-cover"
           />
         ) : (
