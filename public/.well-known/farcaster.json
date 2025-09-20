@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "ChronoCritters",
+    "subtitle": "Built with Zara",
+    "description": "ChronoCritters is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://71c7d05300e440ecaffaf8f7546defb8-3oqc.vercel.app",
+    "splashImageUrl": "https://71c7d05300e440ecaffaf8f7546defb8-3oqc.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://71c7d05300e440ecaffaf8f7546defb8-3oqc.vercel.app/image.png",
+    "tagline": "ChronoCritters",
+    "screenshotUrls": [
+      "https://71c7d05300e440ecaffaf8f7546defb8-3oqc.vercel.app/screenshot.png",
+      "https://71c7d05300e440ecaffaf8f7546defb8-3oqc.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://71c7d05300e440ecaffaf8f7546defb8-3oqc.vercel.app/api/webhook"
+  }
+}
